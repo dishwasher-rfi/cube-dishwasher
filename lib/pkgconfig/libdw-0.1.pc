@@ -1,0 +1,13 @@
+prefix=${DW_PREFIX}
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+includedir=${prefix}/include/liblibdw-0.1
+
+Name: liblibdw
+Description: Sample library created by Anjuta project wizard.
+Version: 0.1
+Requires: 
+Libs: -L${libdir} -llibdw
+Cflags: -I${includedir}
