@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+import sys
+sys.path.append('~/projects/cube_dishwasher/lib/python3/site-packages/')
+
 from guidata import qapplication
 app = qapplication()
 
